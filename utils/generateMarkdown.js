@@ -26,7 +26,7 @@ function generateMarkdown(userResponses) {
 
   // Add License section
   markdown += `
-  * [License](#License)`;
+  * [License](#license)`;
 
   //  Installation
   markdown += `
@@ -41,7 +41,6 @@ function generateMarkdown(userResponses) {
   ## Usage 
   
   ${userResponses.Usage}`;
-  // }
 
   //Contributing
   markdown += `
