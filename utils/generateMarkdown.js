@@ -1,20 +1,72 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function generateMarkdown(userResponses) {
+  // Create Table of Contents
+  let tableOfContents = `## Table of Contents`;
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+    tableOfContents += `
+  * [Installation](#installation)`;
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+    tableOfContents += `
+  * [Usage](#usage)`;
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+    tableOfContents += `
+  * [Contributing](#contributing)`;
 
-`;
+    tableOfContents += `
+  * [Tests](#tests)`;
+
+  // Generate markdown
+  let markdown = `## Description 
+   
+  ${userResponses.Description}
+
+  `;
+
+  // Add Table of Contents to markdown
+  markdown += tableOfContents;
+
+  // Add License section
+  markdown += `
+  * [License](#License)`;
+
+  //  Installation
+  markdown += `
+  
+  ## Installation
+    
+  ${userResponses.Installation}`;
+
+  // Usage
+  markdown += `
+  
+  ## Usage 
+  
+  ${userResponses.Usage}`;
+  // }
+
+  //Contributing
+  markdown += `
+  
+  ## Contributing
+  
+  ${userResponses.Contributing}`;
+
+  // Tests
+  markdown += `
+  
+  ## Tests  
+  
+  ${userResponses.Tests}`;
+
+  // Licenses
+  markdown += `
+  
+  ## License
+  
+  ${userResponses.License}
+  `;
+
+  // Return markdown
+  return markdown;
 }
 
 module.exports = generateMarkdown;
