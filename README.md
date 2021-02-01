@@ -1,7 +1,6 @@
-
 ## Description 
    
-  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+  This project is intended generate a good ReadME file for GitHub project in an automated way. 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,19 +11,21 @@
   
   ## Installation
     
-  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+  Navigate inside the folder and run `npm install`. This will install all the dependencies from package.json file.
   
   ## Usage 
   
-  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+  Please refer to the attached video for the usage.
+  
+  ![Gif demo of README-generator](readme-generator.gif)
   
   ## Contributing
   
-  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+  Binaya Luitel
   
   ## Tests  
   
-  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+  There are no tests at the moment.
   
   ## License
   
